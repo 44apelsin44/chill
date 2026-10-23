@@ -60,7 +60,7 @@ while running:
     crc=pg.draw.rect(screen,(a,b,c),((x_c-50,y_c-50),(r,r)))
 
     pg.display.update()
-    if random.random() > 0.995:     # chance of resetting the screen 
+    if random.random() > 0.997:     # chance of resetting the screen 
         screen.fill('black')
 
     x_c += speed[0]*c_speed
